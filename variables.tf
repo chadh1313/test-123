@@ -45,3 +45,19 @@ variable "network_name_prefix" {
   description = "Generated"
   default = "vpc1"
 }
+
+variable "aws_access_id" {
+  type = "string"
+  description = "Generated"
+}
+
+variable "aws_secret_key" {
+  type = "string"
+  description = "Generated"
+}
+
+variable "region" {
+  type = "string"
+  description = "Generated"
+  default = "us-east-1"
+}
